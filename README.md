@@ -23,6 +23,14 @@ To generate BPM Workout Summary and Gym Summary of the registered users for a We
 ## Storage Design
 ![Storage Design](assets/Storage_Design.png)
 
+## Security Design
+![Security Design](assets/Implement_Data_Security.png)
+
+## Resource Policies:
+![Resource Policies](assets/Implement_resource_policies.png)
+
+## Steps Done in Azure Portal to Implement Lakehouse:
+![Lakehouse](assets/Implement_Lakehouse_Infrastructure.png)
 ## Medallion Architecture:
 ![Medallion Architecture](assets/Medallion_Architecture.png)
 
