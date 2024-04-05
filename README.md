@@ -31,6 +31,12 @@ To generate BPM Workout Summary and Gym Summary of the registered users for a We
 
 ## Steps Done in Azure Portal to Implement Lakehouse:
 ![Lakehouse](assets/Implement_Lakehouse_Infrastructure.png)
+
 ## Medallion Architecture:
 ![Medallion Architecture](assets/Medallion_Architecture.png)
 
+# Tech Stack:
+- Storage: Azure Storage (ADLS Gen2)
+- Compute: Azure Databricks
+- Language: Pyspark (python 3.10)
+- CI/CD: Azure Devops
