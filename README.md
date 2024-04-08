@@ -1,4 +1,4 @@
-# Gymnasiam_Stream-Processing-in-Azure-Databricks-Lakehouse-following-Medallion-Architecture
+# Project
 To generate BPM Workout Summary and Gym Summary of the registered users for a Wearable Device Manufacturing Company.
 
 ## High Level Requirements:
@@ -9,7 +9,7 @@ To generate BPM Workout Summary and Gym Summary of the registered users for a We
   2. GYM Summary
 
 
-## Project Scope : Data Schema
+## Project Scope: Data Schema
 ### ![Registration](assets/Registration.png)
 ### ![User Profile](assets/UserProfile.png)
 ### ![BPM Stream](assets/BPM Stream.png)
