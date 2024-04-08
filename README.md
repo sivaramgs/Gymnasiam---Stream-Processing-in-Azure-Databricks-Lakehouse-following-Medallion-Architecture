@@ -2,15 +2,12 @@
 To generate BPM Workout Summary and Gym Summary of the registered users for a Wearable Device Manufacturing Company.
 
 ## High Level Requirements:
-- Design and Implement a Secure Lakehouse Platform using Medallion Architecture for a dev environment,
 - Collect and ingest data from the source system to lakehouse platform.
-- Decouple data ingestion from data processing
-- Support Batch and Streaming Worklows
+- Design and Implement a Secure Lakehouse Platform using Medallion Architecture for a dev environment,
 - Prepare following analysis datasets for the data consumers
   1. Workout BPM Summary
   2. GYM Summary
-- Perform Integration Testing and automate it
-- Automate deployment pipeline for development environment.
+
 
 ## Project Scope : Data Schema
 ### ![Registration](assets/Registration.png)
@@ -40,3 +37,11 @@ To generate BPM Workout Summary and Gym Summary of the registered users for a We
 - Compute: Azure Databricks
 - Language: Pyspark (python 3.10)
 - CI/CD: Azure Devops
+
+# Work Done
+- Created storage containers in ADLS Gen2 to store metadata, managed and unmanaged tables.
+- Supported Batch and Streaming Workflows to ingest data from source system to lakehouse.
+- Designed and Implemented a Secure Lakehouse Platform With Unity Catalog.
+- Implemented Medallion Architecture by creating bronze, silver and gold layer tables.
+- Automated Integration testing to check the process.
+- Automated deployment pipeline for development environment in Azure Devops.
