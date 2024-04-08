@@ -17,6 +17,20 @@ To generate BPM Workout Summary and Gym Summary of the registered users for a We
 ### ![Workout_Session](assets/workout_session.png)
 ### ![BPM_Workout_Gym_Summary](assets/BPM_Workout_Gym_Summary.png)
 
+# Tech Stack:
+- Storage: Azure Storage (ADLS Gen2)
+- Compute: Azure Databricks
+- Language: Pyspark (python 3.10)
+- CI/CD: Azure Devops
+
+# Work Done
+- Created storage containers in ADLS Gen2 to store metadata, managed and unmanaged tables.
+- Supported Batch and Streaming Workflows to ingest data from source system to lakehouse.
+- Designed and Implemented a Secure Lakehouse Platform With Unity Catalog.
+- Implemented Medallion Architecture by creating bronze, silver and gold layer tables.
+- Automated Integration testing to check the process.
+- Automated deployment pipeline for development environment in Azure Devops.
+
 ## Storage Design
 ![Storage Design](assets/Storage_Design.png)
 
@@ -32,16 +46,3 @@ To generate BPM Workout Summary and Gym Summary of the registered users for a We
 ## Medallion Architecture:
 ![Medallion Architecture](assets/Medallion_Architecture.png)
 
-# Tech Stack:
-- Storage: Azure Storage (ADLS Gen2)
-- Compute: Azure Databricks
-- Language: Pyspark (python 3.10)
-- CI/CD: Azure Devops
-
-# Work Done
-- Created storage containers in ADLS Gen2 to store metadata, managed and unmanaged tables.
-- Supported Batch and Streaming Workflows to ingest data from source system to lakehouse.
-- Designed and Implemented a Secure Lakehouse Platform With Unity Catalog.
-- Implemented Medallion Architecture by creating bronze, silver and gold layer tables.
-- Automated Integration testing to check the process.
-- Automated deployment pipeline for development environment in Azure Devops.
