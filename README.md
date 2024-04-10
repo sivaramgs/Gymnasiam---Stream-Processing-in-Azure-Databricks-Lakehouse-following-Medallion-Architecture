@@ -42,13 +42,24 @@ To generate BPM Workout Summary and Gym Summary of the registered users for a We
 # Work Done
 - Created storage containers in ADLS Gen2 to store metadata, managed and unmanaged tables.
   ![storagecontainers](assets/storagecontainers.png)
+  
+- Created Catalog and External Locations needed for Managed and Unmanaged
+  ![catalog](assets/catalog.png)
+  
   ![external_locations](assets/external_locations.png)
+  
 - Supported Batch and Streaming Workflows to ingest data from source system to lakehouse.
-- Designed and Implemented a Secure Lakehouse Platform With Unity Catalog.
+- Created Metastore for dev workspace in Azure Databricks
   ![metastore](assets/metastore.png)
+  
   ![workspace](assets/workspace.png)
-- Implemented Medallion Architecture by creating bronze, silver and gold layer tables.
+  
+- Written pyspark notebooks in databricks to implement Medallion Architecture by creating bronze, silver and gold layer tables.
   ![azure-databricks](assets/azure-databricks.png)
+  
 - Automated Integration testing to check the process.
-- Automated deployment pipeline for development environment in Azure Devops.
+- Committed the notebooks to Azure Devops.
   ![devops](assets/devops.png)
+  
+- Automated deployment pipeline for development environment in Azure Devops.
+  
