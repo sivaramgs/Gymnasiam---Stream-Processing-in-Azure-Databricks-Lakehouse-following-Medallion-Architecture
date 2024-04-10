@@ -33,7 +33,7 @@ To generate BPM Workout Summary and Gym Summary of the registered users for a We
 ## Resource Policies:
 ![Resource Policies](assets/Implement_resource_policies.png)
 
-## Steps Done in Azure Portal to Implement Lakehouse:
+## Steps to Implement in Azure Databricks Lakehouse:
 ![Lakehouse](assets/Implement_Lakehouse_Infrastructure.png)
 
 ## Medallion Architecture: Tables Created in Databricks
