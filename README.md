@@ -2,11 +2,11 @@
 To generate BPM Workout Summary and Gym Summary of the registered users for a Wearable Device Manufacturing Company.
 
 ## High Level Requirements:
-- Collect and ingest data from the source system to lakehouse platform.
-- Design and Implement a Secure Lakehouse Platform using Medallion Architecture for a dev environment,
-- Prepare following analysis datasets for the data consumers
-  1. Workout BPM Summary
-  2. GYM Summary
+1. Collect and ingest data from the source system to lakehouse platform.
+2. Design and Implement a Secure Lakehouse Platform using Medallion Architecture for a dev environment,
+3. Prepare following analysis datasets for the data consumers
+4. Generate Workout BPM Summary
+5. Generate GYM Summary
 
 
 ## Data Schema
